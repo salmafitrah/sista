@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Sistem Informasi Tugas Akhir - SISTA</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="jadwal.html">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="daftar.html">Daftar Seminar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Berita</a>
+              </li>
+              <form class="d-flex">
+                <a class="btn btn-outline-success" href="login.html">Login</a>
+              </form>
+          </div>
+        </div>
+        </nav>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-left">
+          <li><a href="#">Left</a></li>
+          <li><a href="#about">Left</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about">Right</a></li>
+        <li><a href="#contact">Right</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- Keterangan -->
+<section class="keterangan">
+  <div class="main">
+<div class="col-md-12">
+    <ul class="list-unstyled">
+        <li class="list-item">
+           Pendaftaran Seminar berlaku untuk mahasiswa yang telah mendapat persetujuan dari Pembimbing TA
+        </li>
+</section>
+
+<!-- Form -->
+<div class="main">
+<section class="form">
+<div class="col-md-12">
+        <legend class="ml-2 w-auto col-md-3">Form Daftar Seminar TA</legend>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="exampleInputname">NIM</label>
+                                <input type="text" class="form-control" id="exampleInputname"
+                                    aria-describedby="namelHelp" placeholder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputname">Nama</label>
+                                <input type="text" class="form-control" id="exampleInputname"
+                                    aria-describedby="namelHelp" placeholder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Prodi</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Sistem informasi</option>
+                                    <option>Teknik informatika</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="example-date-input" class="form-label">Tanggal Seminar</label>
+                                <input class="form-control" type="date" value="2011-08-19"
+                                    id="example-date-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="example-time-input" class="form-label">Jam Seminar</label>
+                                <input class="form-control" type="time" value="13:45:00"
+                                    id="example-time-input">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputruangan">Raungan</label>
+                                <input type="text" class="form-control" id="exampleInputruangan"
+                                    aria-describedby="ruanganlHelp" placeholder="Enter ruangan">
+                            </div>
+                        </form>
+                        <button type="submit" class="btn btn-primary">Daftar</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <form class="form-2" action="">
+                        <form>
+                            <div class="form-group">
+                                <div class="form-group">
+                                    <label for="exampleTextarea">Judul TA</label>
+                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Seminar</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>hello world</option>
+                                    <option>technology 4.0 and society 5.0</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Pembimbing</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Sirojul munir s.si, m.mkom</option>
+                                    <option>yazid </option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Penguji 1</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>ahmad rio m.si</option>
+                                    <option>pudy</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlSelect1">Penguji 2</label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                    <option>Amalia Rahmah m.t</option>
+                                    <option>lukman</option>
+                                </select>
+                            </div>
+                        </form>
+                    </form>
+                </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISTA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">Sistem Informasi Tugas Akhir - SISTA</h1>
+    </header>
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="jadwal.html">Jadwal</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="daftar.html">Daftar Seminar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Berita</a>
+              </li>
+              <form class="d-flex">
+                <a class="btn btn-outline-success" href="login.html">Login</a>
+              </form>
+          </div>
+        </div>
+        </nav>
+    </nav>
+    <div class="main">
+        <div class="col-md-12">
+            <ul class="list-unstyled">
+                <li class="list-item">
+                    Mahasiswa Seminar : Lee Taeyong (0110103405)
+                </li>
+                <li class="list-item">
+                    Judul : Rancangan Bangunan Aplikasi Seminar Tugas Akhir Berbasis Web Menggunakan MVC Framework
+                </li>
+                <li class="list-item">
+                    Waktu : Senin, 4 Januari 2021, 10.00
+                </li>
+            </ul>
+          </div>
+          <div class="col-md-12">
+            <fieldset >
+                <legend class="ml-2 w-auto col-md-3">Form Peserta Seminar</legend>
+                <form>
+                    <div class="form-group row">
+                      <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">NIM : </label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control " id="colFormLabel" placeholder="Masukan NIM">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                      <label for="colFormLabel" class="col-sm-2 col-form-label">Nama : </label>
+                      <div class="col-sm-10">
+                        <input type="email" class="form-control" id="colFormLabel" placeholder="Masukan Nama">
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Prodi : </label>
+                        <div class="col-sm-10">
+                        <select class="form-control" id="colFormLabel" placeholder="col-form-label">
+                          <option>Sistem Informasi</option>
+                          <option>Teknik Informatika</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Program : </label>
+                        <div class="col-sm-10">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">D3</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">S1 Reguler</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" value="option3">
+                                <label class="form-check-label" for="inlineCheckbox3">S1 Fast Track</label>
+                              </div>
+                              <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox4" value="option4">
+                                <label class="form-check-label" for="inlineCheckbox3">S2</label>
+                              </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col-sm-10">
+                             <a href="seminar.html" class="btn btn-success">Daftar</a>
+                            </div>
+                          </div>
+                          <div></div>
+                    </div>
+                  </form>
+              </fieldset>
+            </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+header {
+    overflow: hidden;
+    background-color: #ffde84;
+    padding: 20px 10px;
+    font-family: cursive;
+    color: rgb(5, 33, 58)
+    
+}
+.main{
+    margin: 20px;
+    padding-right: 80px;
+
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px 15px;
+    width: 100%;
+    background-color:#ffde84;
+    color: rgb(5, 33, 58)
+    
+}
+
+table{
+    margin: 20px;
+    padding: 80px;
+    width: 100%;
+}
+fieldset{
+    box-sizing: border-box;
+    border-radius: 4px;
+    overflow: hidden;
+    background: rgba(225, 225, 225, 0.7);
+    border: 0;
+    width: 120vh;
+    height: 40vh;
+}
